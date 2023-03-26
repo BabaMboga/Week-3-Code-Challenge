@@ -20,7 +20,7 @@ body{
   #animal-details {
     display: none;
     margin-top: 20px;
-    background-color: darkgoldenrod;
+    background-color: whitesmoke;
   }
   
   #animal-details img {
@@ -38,4 +38,6 @@ body{
   #animal-details button {
     margin-top: 10px;
   }
-  
+  #vote-button{
+    color:darkgoldenrod;
+  }
