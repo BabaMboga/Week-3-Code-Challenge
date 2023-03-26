@@ -1,0 +1,41 @@
+/* styling for the body */
+body{
+    background-color: darkgray;
+}
+/* styling for the animal list */
+#animal-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  /* styling for future childNodes of the unordered list */
+  #animal-list li {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the animal details */
+  #animal-details {
+    display: none;
+    margin-top: 20px;
+    background-color: darkgoldenrod;
+  }
+  
+  #animal-details img {
+    max-width: 400px;
+  }
+  
+  #animal-details h2 {
+    margin-top: 10px;
+  }
+  
+  #animal-details p {
+    margin: 10px 0;
+  }
+  
+  #animal-details button {
+    margin-top: 10px;
+  }
+  
