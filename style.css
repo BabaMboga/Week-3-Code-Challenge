@@ -38,6 +38,7 @@ body{
   #animal-details button {
     margin-top: 10px;
   }
+  
   #vote-button{
-    color:darkgoldenrod;
+    background-color: brown;
   }

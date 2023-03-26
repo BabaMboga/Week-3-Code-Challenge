@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', () =>{
     const animalList = document.querySelector('#animal-list');
     const animalDetails = document.querySelector('#animal-details');
