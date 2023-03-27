@@ -22,6 +22,7 @@ The project is inclusive of the index.html file, style.css file and the index.js
 6. On the visual studio code that has now opened, go to the the run tab and hit start debugging.
 ## Technologies Used
 This program is built purely with javascript using the visual code environment.
+It also has db.json file which contains the data we are going to use.
 ## Support and contact details
 For any issues please email me at william.ayim@student.moringaschool.com
 ### License

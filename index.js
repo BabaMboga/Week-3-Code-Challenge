@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () =>{
     const animalList = document.querySelector('#animal-list');
     const animalDetails = document.querySelector('#animal-details');
     
-    // Make GET request to retrieve character data
+    // Make fetch request to retrieve character data
     fetch('http://localhost:3000/characters')
       .then(response => response.json())
       .then(characters => {
@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () =>{
           const li = document.createElement('li');
           li.textContent = character.name;
           li.addEventListener('click', () => {
-            // Make GET request to retrieve character details
+            // Make fetch request to retrieve character details
             fetch(`http://localhost:3000/characters/${character.id}`)
               .then(response => response.json())
               .then(characterDetails => {
